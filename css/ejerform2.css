@@ -1,0 +1,55 @@
+body{
+
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: red;
+}
+form{
+    width: 350px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: beige;
+    text-align: center;
+}
+label{
+    display: inline-block;
+    width: 300px;/*espaciado*/
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type=file],
+select{
+    width: 220px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border:1px solid #ccc;
+    border-radius:5px ;
+    font-size: 14px;
+}
+
+.opciones{
+    margin-bottom: 15px;
+    text-align: left;
+}
+.opciones label{
+    display: inline;
+    font-size: 10px;
+
+    margin-right: 14px;
+}
+.submit-button{
+    text-align: center;
+    margin-top: 20px;
+}
+fieldset{ 
+   margin: auto;
+    height: 600px;
+    width: 50%;
+}

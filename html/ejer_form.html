@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/ejerform.css">
+    <title>Ejemplo formulario #1</title>
+</head>
+<body>
+    <form  autocomplete="on">
+        <fieldset>
+
+
+
+            <legend>Your details</legend>
+
+
+            <ol type="number">
+                <li>Name<input type="text" placeholder="First and last name"pattern="[A-Za-z\s]+"required></li>
+                <li>Email <input type="email" placeholder="example@domain.com" maxlength="30" required></li>
+                <li>Phone <input type="tel" placeholder="Eg. +447500000000" id=""></li>
+            </ol>
+        </fieldset>
+        <fieldset>
+
+
+
+            <legend>Delivery Address</legend>
+
+
+            <ol type="number">
+                <li>Address<textarea name="text" cols="20" rows="2" ></textarea></li>
+                <li>Post code <input type="text" placeholder="minimo 6 digitos y maximo 8 digitos" pattern="\d{6,8}" required></li>
+                <li>country <input type="text" placeholder="Country" id=""></li>
+            </ol>
+        </fieldset>
+        <fieldset>
+
+
+
+            <legend>Card details</legend>
+            <fieldset> 
+            <legend>Card type</legend>
+
+            <ol type="number">
+                <li><input type="radio" name="cardType" id="visa" required>
+                    <label for="visa">Visa</label> 
+
+                </li>
+                
+                <li><input type="radio"  name="cardType" id="amex"value="AmEx">
+                    <label for="amex">AmEx</label>
+                </li>
+
+                <li><input type="radio" name="cardType" id="mastercard" value="Mastercard">
+                    <label for="mastercard">Mastercard</label>
+                </li>
+           
+        </fieldset>
+                <li>Card number <input type="text" placeholder="maximo 3 digitos" pattern="\d{1,3}" required ></li>
+                <li>Security code <input type="text" placeholder=" inicie con R mayuscula y seguido de 1 digito" pattern="R\d+"required></li>
+                <li>Name as on card <input type="text" placeholder="exact name as on card" id=""></li>
+            </ol>
+            <input type="submit" value="Buy it" border="1" height="10px" width="20px">
+        </fieldset>
+
+
+    </form>
+    <fieldset>
+
+        <legend>Home</legend>
+        <div class="enlaces">
+             <img src="../recursos/home.png" alt="" width="100px" height="80px">
+            <ul>
+                <li><a href="ejer_form2.html">Ultima Pagina</a></li>
+            </ul>
+        </div>
+
+        
+    </fieldset>
+</body>
+</html>

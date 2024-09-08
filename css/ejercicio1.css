@@ -1,0 +1,44 @@
+body{
+    background-color: antiquewhite;
+    font-family: sans-serif;
+
+}
+
+nav>a{
+    background-color: #7695FF;
+    margin-right: 100px;
+    font-size: 20px;
+   text-decoration: none;
+    padding:0;
+    color: aliceblue;
+    text-align: center;
+    
+    text-align: center;
+    }
+    table,a{
+        background-color: aliceblue;
+       
+    }
+    p{
+        background-color:bisque;
+        
+
+    }
+    footer>a{
+        background-color: #7695FF;
+    margin-right: 100px;
+    font-size: 20px;
+   text-decoration: none;
+    padding:0;
+    color: aliceblue;
+    text-align: center;
+    
+   
+    }
+    aside, ul,li{
+        background-color: gray;
+
+    }
+    fieldset{
+        text-align: center;
+    }

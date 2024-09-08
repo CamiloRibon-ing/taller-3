@@ -1,0 +1,9 @@
+body{
+    font-family: sans-serif;
+    background-color: aliceblue;
+
+}
+fieldset{
+    background-color: ghostwhite;
+    box-shadow: 1px 1px 10px greenyellow;
+}
